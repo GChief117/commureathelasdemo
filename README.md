@@ -1,3 +1,14 @@
+# Commure + Athelas Lead Case Study Demo
+
+<img width="2035" alt="Screenshot 2025-05-08 at 8 59 08 PM" src="https://github.com/user-attachments/assets/2e35f4cd-7dce-47d0-9e28-16a10f5bfcdc" />
+
+https://comurredemo.web.app/
+
+https://www.youtube.com/watch?v=JYFz3yUPZWY&feature=youtu.be
+
+
+Built with React, Microsoft FluentUI, with Open AI backend
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
