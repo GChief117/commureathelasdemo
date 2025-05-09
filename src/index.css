@@ -1,0 +1,47 @@
+/*  Basic app‑wide styles + CSS Grid layout.
+    Keeps the page full‑height and arranges sections vertically. */
+/* =====  GLOBAL ===== */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* =====  PAGE GRID  (brand | filters | main | footer) ===== */
+.app-grid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 1rem;
+}
+
+/* =====  MAIN AREA  (summary + chatbot) ===== */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;        /* 📱 phones: vertical stack  */
+  gap: 1rem;
+  padding: 0 1rem 1rem;
+}
+
+
+
+@media (min-width: 768px) {          /* 💻 tablet+ two‑column */
+  .main-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* =====  Horizontal‑scroll helper for Tab bars  ===== */
+.tab-scroll-x {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* =====  Cards / Chatbot scroll unchanged ===== */
+.summary-card  { height: 100%; overflow: hidden; }
+.summary-scroll{
+  height: calc(100% - 2.5rem);
+  overflow-y: auto; padding-right: .25rem;
+}
+.chatbot-box   { display: flex; flex-direction: column; height: 100%; }
+.chatbot-input { display: flex; gap: .25rem; margin-top: auto; }
