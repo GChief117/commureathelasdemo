@@ -7,7 +7,7 @@ https://comurredemo.web.app/
 https://www.youtube.com/watch?v=JYFz3yUPZWY&feature=youtu.be
 
 
-Built with React, Microsoft FluentUI, with Open AI backend, made specifically for RCM workflwo with LLM integraiton.
+Built with React, Microsoft FluentUI, with Open AI backend, made specifically for RCM workflow with LLM integraiton, tailored specifically for said domain.
 
 # Getting Started with Create React App
 
